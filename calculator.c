@@ -12,6 +12,7 @@ int main()
    printf("enter values for n1 and n2:");
    scanf("%d%d",&n1,&n2);
    
+   // To check which operation have to perform
    switch(op)
    {
       case '+':
