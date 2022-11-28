@@ -5,7 +5,6 @@ int main()
    int n1, n2;
    char op;
    
-   
    printf("Enter an operator:\n");
    scanf("%c",&op);
    
@@ -16,25 +15,22 @@ int main()
    switch(op)
    {
       case '+':
-       
-         printf("The sum is: %d\n",n1+n2);
-         break;
+       printf("The sum is: %d\n",n1+n2);
+       break;
       
       case '-':
-         
          printf("The substration is: %d\n",n1-n2);
          break;
          
       case '*':
-         
          printf("The multipkication is: %d\n",n1*n2);
          break;
          
       case '/':
-         
          printf("The division is: %d\n",n1/n2);
          break;
-      //ans = n1 % n2;
+         
+      case '%':
          printf("The remainder is: %d\n",n1%n2);
          break;
          
