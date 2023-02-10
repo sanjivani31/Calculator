@@ -5,7 +5,7 @@ int main()
    int n1, n2;
    char op;
    
-   printf("Enter an operator:\n");
+   printf("Enter an operator:\n"); //enter which operation we wish to perform
    scanf("%c",&op);
    
    printf("Enter values for n1 and n2:");
